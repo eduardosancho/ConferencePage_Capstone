@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+
+.cocogoose {
+    font-family: 'Cocogoose', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
