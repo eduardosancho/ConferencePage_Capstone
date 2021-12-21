@@ -2,7 +2,7 @@
 
 # Conference Page _ Capstone Week 5 Microverse
 
-> Conference theme: Modern Agriculture and its role in Space Colonization.
+> Conference theme: Agriculture Technology Global Summit.
 
 ![screenshot](./app_screenshot.png)
 
