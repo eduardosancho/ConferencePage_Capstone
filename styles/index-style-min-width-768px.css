@@ -3,102 +3,13 @@
     src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
-@font-face {
-    font-family: 'Cocogoose Italic';
-    src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
-}
-@font-face {
-    font-family: 'Cocogoose Bold Italic';
-    src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
-}
-
 
 .cocogoose {
     font-family: 'Cocogoose', sans-serif;
-    font-size: 80px;
+    font-size: 90px;
 }
 
 .lato {
     font-family: 'Lato', sans-serif;
-    font-size: 80px;
-}
-
-body {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Cocogoose', sans-serif;
-}
-
-.navbar-top {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
-    padding-right: 10vw;
-    height: 40px;
-    color: white;
-    background-color: rgba(80, 80, 80, 0.9);
-}
-
-.social-networks {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.social-networks a {
-    color: white;
-}
-
-.navbar-bottom {
-    display: flex;
-    justify-content: space-between;
-    padding-inline-end: 10vw;
-}
-
-#navbar-logo {
-    background-color: green;
-    margin: 0 2vw;
-    height: 70px;
-}
-
-.navbar-sections {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30vw;
-    padding-inline-start: 0;
-    list-style: none;
-    font-size: 0.8em;
-}
-
-.navbar-sections li a {
-    text-decoration: none;
-}
-
-#at-campaign {
-    background-color: white;
-    color: orangered;
-    border: solid orangered 3px;
-    margin: 10px;
-    white-space: nowrap;
-    font-family: 'Cocogoose', sans-serif;
-}
-
-#introduction {
-    border: solid red;
-    font-family: 'Lato', sans-serif;
-}
-
-#title {
-    background-image: url(../images/farm-tractor.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10vw;
-    color: white;
-}
-
-#title h1 {
-    width: 50vw;
+    font-size: 90px;
 }
