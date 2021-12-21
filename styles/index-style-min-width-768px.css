@@ -86,7 +86,8 @@ body {
 }
 
 #introduction {
-    background-color: brown;
+    border: solid red;
+    font-family: 'Lato', sans-serif;
 }
 
 #title {
@@ -95,14 +96,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10vw;
+    color: white;
 }
 
-#title span {
-    font-family: 'Cocogoose Italic', sans-serif;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.date h3 {
-    font-family: 'Cocogoose Bold Italic', sans-serif;
-    font-weight: 900;
+#title h1 {
+    width: 50vw;
 }
