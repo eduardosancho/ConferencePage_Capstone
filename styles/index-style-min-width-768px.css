@@ -7,6 +7,10 @@
     font-family: 'Cocogoose Italic';
     src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
 }
+@font-face {
+    font-family: 'Cocogoose Bold Italic';
+    src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
+}
 
 
 .cocogoose {
@@ -96,4 +100,9 @@ body {
 #title span {
     font-family: 'Cocogoose Italic', sans-serif;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.date h3 {
+    font-family: 'Cocogoose Bold Italic', sans-serif;
+    font-weight: 900;
 }
