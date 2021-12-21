@@ -3,6 +3,11 @@
     src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
+@font-face {
+    font-family: 'Cocogoose Italic';
+    src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
+}
+
 
 .cocogoose {
     font-family: 'Cocogoose', sans-serif;
@@ -74,4 +79,21 @@ body {
     margin: 10px;
     white-space: nowrap;
     font-family: 'Cocogoose', sans-serif;
+}
+
+#introduction {
+    background-color: brown;
+}
+
+#title {
+    background-image: url(../images/farm-tractor.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vw;
+}
+
+#title span {
+    font-family: 'Cocogoose Italic', sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
 }
