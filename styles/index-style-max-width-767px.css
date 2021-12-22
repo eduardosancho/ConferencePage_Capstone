@@ -19,9 +19,91 @@ body {
   font-family: 'Cocogoose', sans-serif;
 }
 
-.navbar-top,
+.toggleNav {
+  padding: 5vw;
+}
+
+.toggleNav:hover {
+  background-color: #b0b0b0;
+}
+
+.navbar-sections .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6vw;
+}
+
+.navbar {
+  visibility: visible;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: fixed;
+  top: -100%;
+  background: linear-gradient(#fff 25%, rgb(63, 134, 45) 85%, #444 100%);
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  transition: top 1.5s ease-out;
+}
+
+.navbar-top {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3vw;
+}
+
+.social-networks {
+  list-style: none;
+  padding-inline-start: 0;
+  width: 18vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5vw;
+}
+
+.social-networks a {
+  color: black;
+}
+
 .navbar-bottom {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-sections {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.navbar-sections li {
+  margin: 3.5vh 0;
+}
+
+.navbar-sections a {
+  font-size: 4vh;
+  text-decoration: none;
+  font-family: 'Cocogoose Bold Italic', sans-serif;
+  color: rgb(44, 26, 87);
+}
+
+#at-campaign {
+  background-color: #222;
+  color: rgb(41, 121, 148);
+  border: solid rgb(41, 121, 148) 3px;
+  border-radius: 20px;
+  margin: 5px;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 8vw;
+  padding: 3vw;
 }
 
 #introduction {
