@@ -20,7 +20,8 @@ body {
 }
 
 .toggleNav {
-  padding: 5vw;
+  padding: 7vw;
+  width: 10vw;
 }
 
 .toggleNav:hover {
@@ -118,20 +119,25 @@ body {
 }
 
 #title {
-  padding: 10vw;
+  padding: 2vw 10vw;
 }
 
 #title h1 {
-  width: 60vw;
+  width: 80vw;
   background-image: url(../images/farm-tractor.jpg);
+  background-position: 5%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 7vw;
+
 }
 
 #title h2 {
-  background-image: url(../images/farm-tractor.jpg);
+  background-image: url(../images/farm-tractor.jpg);  
+  background-position: 5%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 5vw;
 }
 
 #introduction p {
@@ -139,7 +145,7 @@ body {
   border: solid white 2px;
   margin: 4vw;
   padding: 5vw;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 8vw;
   font-family: 'Cocogoose', sans-serif;
   color: rgb(63, 63, 63);
@@ -148,7 +154,7 @@ body {
 .when-where {
   background-color: transparent;
   margin: 4vw;
-  color: rgb(63, 63, 63);
+  color: rgb(83, 83, 83);
 }
 
 #date {
