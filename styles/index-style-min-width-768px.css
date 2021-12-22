@@ -103,3 +103,27 @@
 .navbar-sections .close {
   display: none;
 }
+
+#title {
+  padding: 2vw 5vw;
+}
+
+#title h1 {
+  margin: 0;
+}
+
+#introduction {
+  padding-bottom: 2vw;
+}
+
+#introduction p {
+  width: 50vw;
+  font-size: 1.7vw;
+  line-height: normal;
+  padding: 3vw;
+  margin: 0 0 0 5vw;
+}
+
+.when-where {
+  margin-left: 5vw;
+}
