@@ -12,3 +12,69 @@
   font-family: 'Lato', sans-serif;
   font-size: 90px;
 }
+
+.navbar-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 7vw;
+  height: 3.5vh;
+  color: white;
+  background-color: rgba(80, 80, 80, 0.9);
+  font-size: 2vw;
+}
+
+.social-networks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.social-networks a {
+  color: white;
+}
+
+.social-networks i {
+  width: 2vw;
+}
+
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-end: 5vw;
+}
+
+#navbar-logo {
+  background-color: green;
+  margin: 0 1vw;
+  height: auto;
+  width: 30vw;
+}
+
+.navbar-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  padding-inline-start: 0;
+  list-style: none;
+  font-size: 2vw;
+}
+
+.navbar-sections li a {
+  text-decoration: none;
+}
+
+#at-campaign {
+  background-color: white;
+  color: orangered;
+  border: solid orangered 3px;
+  margin: 5px;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 2vw;
+}
