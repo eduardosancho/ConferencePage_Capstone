@@ -173,3 +173,58 @@ body {
     font-weight: 600;
     font-size: 4vw;
 }
+
+#speakers {
+    padding: 4vw;
+}
+
+#speakers h2 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 4vh;
+}
+
+.speaker-card {
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+.speaker-left {
+    flex: 5;
+}
+
+.speaker-thumbnail {
+    background-image: url(../images/chessboard.jpg);
+    background-repeat: no-repeat;
+    background-size: 12vw;
+    background-position: top left;
+    padding: 3vw 0px 0px 3vw;
+}
+
+.speaker-thumbnail img {
+    width: 22.5vw;
+}
+
+.speaker-right {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 3vw;
+    font-family: 'Lato', sans-serif;
+}
+
+.speaker-name {
+    margin-top: 0;
+    font-size: 3vw;
+}
+
+.speaker-job {
+    margin-top: 0;
+    color: orangered;
+    font-size: 2.5vw;
+}
+
+.speaker-bio {
+    margin-top: 0;
+    font-size: 2vw;
+}
