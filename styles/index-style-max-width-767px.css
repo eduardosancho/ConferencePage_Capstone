@@ -46,6 +46,8 @@ body {
   list-style: none;
   gap: 20px;
   padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .social-networks a {
@@ -95,19 +97,56 @@ body {
 
 #introduction {
   font-family: 'Lato', sans-serif;
-}
-
-#title {
   background-image: url(../images/farm-tractor.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgb(196, 196, 196);
+  background-blend-mode: screen;
+  padding-bottom: 8vw;
+}
+
+#title {
   padding: 10vw;
-  color: white;
 }
 
 #title h1 {
-  width: 50vw;
+  width: 60vw;
+  background-image: url(../images/farm-tractor.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#title h2 {
+  background-image: url(../images/farm-tractor.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#introduction p {
+  background-color: rgba(236, 236, 236, 0.548);
+  border: solid white 2px;
+  margin: 4vw;
+  padding: 5vw;
+  font-size: 5vw;
+  line-height: 8vw;
+  font-family: 'Cocogoose', sans-serif;
+  color: rgb(63, 63, 63);
+}
+
+.when-where {
+  background-color: transparent;
+  margin: 4vw;
+  color: rgb(63, 63, 63);
+}
+
+#date {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+#location {
+  font-size: 1em;
 }
 
 #program {
