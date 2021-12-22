@@ -288,7 +288,6 @@ body {
 #partners {
   background-color: rgb(97, 96, 96);
   padding-top: 3vh;
-  padding-bottom: 5vh;
 }
 
 #partners h3 {
@@ -305,10 +304,16 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5.5vw 6vw;
+  gap: 2vw 6vw;
   padding-inline-start: 0;
   margin: 0;
   padding: 5vw;
+}
+
+#companies li {
+  height: 25vw;
+  display: flex;
+  align-items: center;
 }
 
 #companies img {
