@@ -44,6 +44,7 @@ speakers[5] = {
 
 const sectionSpeakers = document.createElement('section');
 sectionSpeakers.setAttribute('id', 'speakers');
+sectionSpeakers.innerHTML = '<h2>Featured Speakers</h2>';
 document.body.append(sectionSpeakers);
 
 speakers.forEach(speaker => {
