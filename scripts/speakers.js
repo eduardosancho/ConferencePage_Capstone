@@ -58,7 +58,7 @@ speakers.forEach((speaker) => {
   speakerLeft.appendChild(speakerThumbnail);
   const speakerImage = document.createElement('img'); // Append image to thumbnail
   speakerImage.setAttribute('src', speaker.picture);
-  speakerImage.setAttribute('alt', `${speaker.name} profile picture`)
+  speakerImage.setAttribute('alt', `${speaker.name} profile picture`);
   speakerThumbnail.appendChild(speakerImage);
 
   // RIGHT SIDE
