@@ -45,10 +45,12 @@ speakers[5] = {
 const sectionSpeakers = document.body.querySelector('#speakers');
 sectionSpeakers.innerHTML = '<h2>Featured Speakers</h2>';
 
+let i = 1;
 speakers.forEach((speaker) => {
   // CARD CONTAINER
   const speakerCard = document.createElement('div'); // Create card
   speakerCard.className = 'speaker-card';
+  speakerCard.setAttribute('id', `card-${i}`);
 
   // LEFT SIDE
   const speakerLeft = document.createElement('div');
@@ -81,4 +83,5 @@ speakers.forEach((speaker) => {
   sectionSpeakers.appendChild(speakerCard);
   speakerCard.appendChild(speakerLeft);
   speakerCard.appendChild(speakerRight);
+  i += 1;
 });
