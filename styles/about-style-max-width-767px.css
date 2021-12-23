@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: 'Cocogoose', sans-serif;
+  background-color: #b0b0b0;
 }
 
 .toggleNav {
