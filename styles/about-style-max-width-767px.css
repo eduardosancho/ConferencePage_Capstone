@@ -183,3 +183,61 @@ body {
 .logo-display {
   border: solid black 1px;
 }
+
+#past-summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#past-summits h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  width: 80vw;
+  margin: 0 0 5vw 0;
+}
+
+#past-summits p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  line-height: 1.2rem;
+  width: 75vw;
+  margin: 0 0 5vw 0;
+}
+
+#summit-2013,
+#summit-2011 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vw 0;
+  margin: 2vw;
+  background-color: #43a127;
+  background-blend-mode: color-burn;
+  color: white;
+}
+
+#summit-2013 {
+  background-image: url(../images/farmercon.jpg);
+}
+
+#summit-2011 {
+  background-image: url(../images/expopyme.jpg);
+}
+
+#summit-2013 h3,
+#summit-2011 h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 8vw;
+  width: 80vw;
+  margin: 0 0 5vw 0;
+}
+
+#summit-2013 p,
+#summit-2011 p {
+  font-size: 4vw;
+}
