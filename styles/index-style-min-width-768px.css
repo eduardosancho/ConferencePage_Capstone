@@ -245,3 +245,20 @@
 #companies img {
   width: 10vw;
 }
+
+#atlogo-black {
+  width: 30vw;
+}
+
+.footer-right {
+  width: 60vw;
+}
+
+.footer-right h4 {
+  font-size: 1.5vw;
+}
+
+#service-email,
+#service-phone {
+  font-size: 1.4vw;
+}
