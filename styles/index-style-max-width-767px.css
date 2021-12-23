@@ -313,20 +313,20 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2vw 6vw;
+  gap: 0 8vw;
   padding-inline-start: 0;
   margin: 0;
-  padding: 5vw;
+  padding: 3vw 10vw;
 }
 
 #companies li {
-  height: 25vw;
+  height: 20vw;
   display: flex;
   align-items: center;
 }
 
 #companies img {
-  width: 25vw;
+  width: 17vw;
 }
 
 footer {
