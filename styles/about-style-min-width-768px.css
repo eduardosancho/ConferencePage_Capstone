@@ -210,6 +210,25 @@
 display: none;
 }
 
+
+footer {
+  background-color: rgb(83, 83, 83);
+  color: white;
+}
+
+.footer-right h4 {
+  font-size: 1.5vw;
+}
+
+#atlogo-black {
+  display: none;
+}
+
+#atlogo-white {
+  display: initial;
+  width: 40vw;
+}
+
 #service-email,
 #service-phone {
   display: flex;
