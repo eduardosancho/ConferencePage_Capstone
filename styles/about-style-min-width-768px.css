@@ -149,6 +149,37 @@
   flex-direction: column;
 }
 
+#logo-info h2 {
+  font-size: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+#logo-info .logo-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+  margin-bottom: 2vw;
+}
+
+#logo-info p {
+  line-height: normal;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+#logo-info .end-logo {
+  display: initial;
+}
+
+.logo-display img{
+  width: 50vw;
+}
+
+
+
+
+
 
 
 

@@ -188,6 +188,10 @@ body {
   margin: 0 0 5vw 0;
 }
 
+#logo-info .end-logo {
+  display: none;
+}
+
 .logo-display {
   border: solid black 1px;
 }
