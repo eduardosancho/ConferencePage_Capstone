@@ -363,6 +363,5 @@ footer {
 
 #service-email,
 #service-phone {
-  font-size: 2vw;
-  margin: 0;
+  display: none;
 }

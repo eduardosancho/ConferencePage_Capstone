@@ -247,3 +247,76 @@ body {
 #summit-2011 p {
   font-size: 4vw;
 }
+
+#partners {
+  background-color: rgb(97, 96, 96);
+  padding-top: 3vh;
+}
+
+#partners h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  color: #b0b0b0;
+  margin: 0;
+}
+
+#companies {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 8vw;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 3vw 10vw;
+}
+
+#companies li {
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#companies img {
+  width: 17vw;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+#atlogo-white {
+  display: none;
+}
+
+#atlogo-black {
+  width: 40vw;
+}
+
+.footer-left {
+  width: fit-content;
+  padding: 5vw;
+}
+
+.footer-right {
+  width: 46vw;
+  padding: 2vw;
+}
+
+.footer-right h4 {
+  font-size: 2.1vw;
+  line-height: 3vw;
+  margin: 5px 0;
+}
+
+#service-email,
+#service-phone {
+  display: none;
+}

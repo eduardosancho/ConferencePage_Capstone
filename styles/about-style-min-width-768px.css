@@ -7,3 +7,18 @@
   font-size: 80px;
   color: blue;
 }
+
+
+
+
+
+
+
+
+
+
+#service-email,
+#service-phone {
+  display: flex;
+  font-size: 1.4vw;
+}
