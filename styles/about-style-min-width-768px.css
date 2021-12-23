@@ -80,8 +80,8 @@
 
 #at-campaign {
   background-color: white;
-  color: orangered;
-  border: solid orangered 3px;
+  color: #43a127;
+  border: solid #43a127 3px;
   border-radius: 0;
   margin: 5px;
   margin-right: 5vw;
@@ -100,12 +100,16 @@
 }
 
 #title h1 {
+  background-image: none;
+  background-color: #43a127;
   margin: 0;
   width: 60vw;
   font-size: 5vw;
 }
 
 #title h2 {
+  background-color: #43a127;
+  background-image: none;
   display: none;
 }
 
