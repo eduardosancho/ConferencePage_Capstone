@@ -232,4 +232,5 @@ footer {
 #service-phone {
   display: flex;
   font-size: 1.4vw;
+  gap: 1vw;
 }
