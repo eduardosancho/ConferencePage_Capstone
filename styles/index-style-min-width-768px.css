@@ -118,3 +118,44 @@
 .when-where {
   margin-left: 5vw;
 }
+
+#program ul {
+  flex-direction: row;
+  align-items: center;
+  width: 70vw;
+}
+
+#program li {
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  gap: 0.5vw;
+  margin: 2vw 1vw;
+  padding: 10px;
+  height: 25vh;
+}
+
+#program li i{
+  font-size: 3vw;
+  flex: none;
+}
+
+#program h3 {
+  font-size: 1.5vw;
+  margin: 0;
+  flex: none;
+}
+
+#program li p {
+  text-align: center;
+  font-size: 0.9vw;
+  flex: none;
+}
+
+#join-button {
+  display: none;
+}
+
+#program a {
+  display: initial;
+}
