@@ -176,7 +176,36 @@
   width: 50vw;
 }
 
+#past-summits .summit-preview {
+  display: flex;
+}
 
+#past-summits h2 {
+  font-size: 3vw;
+}
+
+#past-summits p {
+  font-size: 1.5vw;
+}
+
+#summit-2013,
+#summit-2011 {
+  width: 30vw;
+  height: 2vw;
+}
+
+#summit-2013 h3,
+#summit-2011 h3 {
+  font-size: 3.2vw;
+  margin-bottom: 2vw;
+}
+
+#summit-2013 p,
+#summit-2011 p {
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+
+}
 
 
 
