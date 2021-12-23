@@ -114,8 +114,8 @@
   background-image: none;
   background-color: var(--orange);
   margin: 0;
-  width: 60vw;
-  font-size: 5vw;
+  width: 50vw;
+  font-size: 4vw;
 }
 
 #title h2 {
@@ -137,14 +137,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4vw;
-  border: solid var(--lightgray) 2px;
+  padding: 2vw;
+  border: solid var(--darkgray) 1px;
 }
 
 #introduction p {
   background-color: initial;
-  width: 70vw;
-  font-size: 1.4vw;
+  width: 50vw;
+  font-size: 1.1vw;
   line-height: normal;
   padding: 0;
   margin: 0;
@@ -158,6 +158,8 @@
 .contact-message {
   display: flex;
   flex-direction: column;
+  width: 75vw;
+  font-size: 2vw;
 }
 
 #logo-info h2 {
