@@ -3,14 +3,155 @@
   src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
-.cocogoose {
-  font-family: 'Cocogoose', sans-serif;
-  font-size: 90px;
-  color: green;
+@font-face {
+  font-family: 'Cocogoose Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
 }
 
-.lato {
+@font-face {
+  font-family: 'Cocogoose Bold Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.toggleNav {
+  padding: 7vw;
+  width: 10vw;
+}
+
+.toggleNav:hover {
+  background-color: #b0b0b0;
+}
+
+.navbar-sections .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6vw;
+}
+
+.navbar {
+  visibility: visible;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: fixed;
+  top: -100%;
+  background: linear-gradient(#fff 25%, rgb(63, 134, 45) 85%, #444 100%);
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  transition: top 1.5s ease-out;
+}
+
+.navbar-top {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 3vw;
+}
+
+.social-networks {
+  list-style: none;
+  padding-inline-start: 0;
+  width: 18vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5vw;
+}
+
+.social-networks a {
+  color: black;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-sections {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.navbar-sections li {
+  margin: 3.5vh 0;
+}
+
+.navbar-sections a {
+  font-size: 4vh;
+  text-decoration: none;
+  font-family: 'Cocogoose Bold Italic', sans-serif;
+  color: rgb(44, 26, 87);
+}
+
+#at-campaign {
+  background-color: #222;
+  color: rgb(41, 121, 148);
+  border: solid rgb(41, 121, 148) 3px;
+  border-radius: 20px;
+  margin: 5px;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 8vw;
+  padding: 3vw;
+}
+
+#introduction {
   font-family: 'Lato', sans-serif;
-  font-size: 90px;
-  color: green;
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(196, 196, 196);
+  background-blend-mode: screen;
+  padding-bottom: 8vw;
+}
+
+#title {
+  padding: 2vw 10vw;
+}
+
+#title h1 {
+  width: 80vw;
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: 5%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7vw;
+}
+
+#title h2 {
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: 5%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vw;
+}
+
+#introduction p {
+  background-color: rgba(236, 236, 236, 0.548);
+  border: solid white 2px;
+  margin: 4vw;
+  padding: 5vw;
+  font-size: 4vw;
+  line-height: 8vw;
+  font-family: 'Cocogoose', sans-serif;
+  color: rgb(63, 63, 63);
+}
+
+.contact-message {
+  background-color: transparent;
+  margin: 4vw;
+  color: rgb(83, 83, 83);
 }

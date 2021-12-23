@@ -1,7 +1,6 @@
 const open = document.querySelector('.open');
 const navbarSections = document.querySelector('.navbar');
 const close = document.querySelector('.close');
-/* console.log(open); */
 
 function showDropdown() {
   navbarSections.style.top = '0';
