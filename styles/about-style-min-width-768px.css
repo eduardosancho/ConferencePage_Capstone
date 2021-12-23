@@ -204,20 +204,11 @@
 #summit-2011 p {
   font-size: 1.5vw;
   margin-bottom: 2vw;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#partners {
+display: none;
+}
 
 #service-email,
 #service-phone {
