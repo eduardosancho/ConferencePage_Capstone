@@ -179,11 +179,11 @@ body {
   width: 100vw;
   color: white;
   font-family: 'Lato', sans-serif;
-  padding: 10vw 0;
 }
 
 #program h2 {
-  margin-block-start: 0;
+  margin: 4vh 0;
+  font-size: 5vw;
 }
 
 #program ul {
@@ -191,6 +191,8 @@ body {
   padding-inline-start: 0;
   display: flex;
   flex-direction: column;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 #program li {
@@ -220,14 +222,21 @@ body {
   line-height: 1.6em;
 }
 
+#program a {
+  display: none;
+  margin: 3vw;
+}
+
 #join-button {
+  display: initial;
   background-color: #43a127;
   color: white;
-  padding: 7vw 14vw;
+  padding: 7vw 12vw;
   border: none;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 4vw;
+  margin: 10vw 0;
 }
 
 #speakers {
