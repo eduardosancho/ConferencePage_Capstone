@@ -163,6 +163,7 @@
 }
 
 #logo-info p {
+  width: 50vw;
   line-height: normal;
   font-size: 1.5vw;
   margin: 0;
