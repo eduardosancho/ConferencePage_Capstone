@@ -3,6 +3,13 @@
   src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
 .toggleNav {
   display: none;
 }
@@ -84,8 +91,8 @@
 
 #at-campaign {
   background-color: white;
-  color: #43a127;
-  border: solid #43a127 3px;
+  color: var(--orange);
+  border: solid var(--orange) 3px;
   border-radius: 0;
   margin: 5px;
   margin-right: 7vw;
@@ -105,14 +112,14 @@
 
 #title h1 {
   background-image: none;
-  background-color: #43a127;
+  background-color: var(--orange);
   margin: 0;
   width: 60vw;
   font-size: 5vw;
 }
 
 #title h2 {
-  background-color: #43a127;
+  background-color: var(--orange);
   background-image: none;
   display: none;
 }
@@ -131,7 +138,7 @@
   flex-direction: column;
   align-items: center;
   padding: 4vw;
-  border: solid #b0b0b0 2px;
+  border: solid var(--lightgray) 2px;
 }
 
 #introduction p {
@@ -216,7 +223,7 @@
 }
 
 footer {
-  background-color: rgb(83, 83, 83);
+  background-color: var(--darkgray);
   color: white;
 }
 

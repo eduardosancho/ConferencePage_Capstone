@@ -13,6 +13,13 @@
   src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
 }
 
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +32,7 @@ body {
 }
 
 .toggleNav:hover {
-  background-color: #b0b0b0;
+  background-color: var(--whitefuzz);
 }
 
 .navbar-sections .close {
@@ -47,7 +54,7 @@ body {
   gap: 0.8rem;
   position: fixed;
   top: -100%;
-  background: linear-gradient(#fff 25%, rgb(63, 134, 45) 85%, #444 100%);
+  background: linear-gradient(#fff 25%, var(--orange) 85%, var(--darkgray) 100%);
   margin-block-start: 0;
   padding-inline-start: 0;
   transition: top 1.5s ease-out;
@@ -95,13 +102,13 @@ body {
   font-size: 4vh;
   text-decoration: none;
   font-family: 'Cocogoose Bold Italic', sans-serif;
-  color: rgb(44, 26, 87);
+  color: black;
 }
 
 #at-campaign {
-  background-color: #222;
-  color: rgb(41, 121, 148);
-  border: solid rgb(41, 121, 148) 3px;
+  background-color: var(--darkgray);
+  color: var(--orange);
+  border: solid var(--orange) 3px;
   border-radius: 20px;
   margin: 5px;
   white-space: nowrap;
@@ -116,7 +123,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(196, 196, 196);
+  background-color: var(--whitefuzz);
   background-blend-mode: screen;
   padding-bottom: 8vw;
 }
@@ -129,6 +136,8 @@ body {
   width: 80vw;
   background-image: url(../images/farm-tractor.jpg);
   background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7vw;
@@ -137,26 +146,28 @@ body {
 #title h2 {
   background-image: url(../images/farm-tractor.jpg);
   background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 5vw;
 }
 
 #introduction p {
-  background-color: rgba(236, 236, 236, 0.548);
+  background-color: rgba(236, 236, 236, 0.4);
   border: solid white 2px;
   margin: 4vw;
   padding: 5vw;
   font-size: 3vw;
   line-height: 4.5vw;
   font-family: 'Cocogoose', sans-serif;
-  color: rgb(63, 63, 63);
+  color: var(--darkgray);
 }
 
 .when-where {
   background-color: transparent;
   margin: 4vw;
-  color: rgb(83, 83, 83);
+  color: var(--darkgray);
 }
 
 #date {
@@ -174,7 +185,7 @@ body {
   background-size: 300vw;
   background-repeat: no-repeat;
   background-position: right;
-  background-color: rgb(7, 87, 7);
+  background-color: var(--orange);
   background-blend-mode: hard-light;
   display: flex;
   flex-direction: column;
@@ -215,7 +226,7 @@ body {
 
 #program h3 {
   flex: 2;
-  color: #43a127;
+  color: var(--orange);
   font-size: 4vw;
 }
 
@@ -232,7 +243,7 @@ body {
 
 #join-button {
   display: initial;
-  background-color: #43a127;
+  background-color: var(--orange);
   color: white;
   padding: 7vw 12vw;
   border: none;
@@ -288,7 +299,7 @@ body {
 
 .speaker-job {
   margin-top: 0;
-  color: #43a127;
+  color: var(--orange);
   font-size: 2.5vw;
 }
 
@@ -298,7 +309,7 @@ body {
 }
 
 #partners {
-  background-color: rgb(97, 96, 96);
+  background-color: var(--darkgray);
   padding-top: 3vh;
 }
 
@@ -306,7 +317,7 @@ body {
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 5vw;
-  color: #b0b0b0;
+  color: var(--lightgray);
   margin: 0;
 }
 

@@ -3,6 +3,13 @@
   src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
 .toggleNav {
   display: none;
 }
@@ -21,7 +28,7 @@
   padding-right: 7vw;
   height: 3vw;
   color: white;
-  background-color: rgba(80, 80, 80, 0.9);
+  background-color: var(--darkgray);
   font-size: 1vw;
   width: initial;
 }
@@ -84,8 +91,8 @@
 
 #at-campaign {
   background-color: white;
-  color: #43a127;
-  border: solid #43a127 3px;
+  color: var(--orange);
+  border: solid var(--orange) 3px;
   border-radius: 0;
   margin: 5px;
   margin-right: 7vw;
