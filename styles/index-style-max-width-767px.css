@@ -146,8 +146,8 @@ body {
   border: solid white 2px;
   margin: 4vw;
   padding: 5vw;
-  font-size: 4vw;
-  line-height: 8vw;
+  font-size: 3vw;
+  line-height: 4.5vw;
   font-family: 'Cocogoose', sans-serif;
   color: rgb(63, 63, 63);
 }
@@ -160,11 +160,12 @@ body {
 
 #date {
   font-weight: bolder;
+  font-size: 6.5vw;
   margin-bottom: 0;
 }
 
 #location {
-  font-size: 1em;
+  font-size: 4vw;
 }
 
 #program {
