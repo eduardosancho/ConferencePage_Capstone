@@ -151,6 +151,10 @@ body {
   color: rgb(63, 63, 63);
 }
 
+#introduction .end-title {
+  display: none;
+}
+
 .contact-message {
   background-color: transparent;
   margin: 4vw;
