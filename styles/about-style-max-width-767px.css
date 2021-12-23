@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+@font-face {
+  font-family: 'Cocogoose Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
+}
+
+@font-face {
+  font-family: 'Cocogoose Bold Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Cocogoose', sans-serif;
+  background-color: #b0b0b0;
+}
+
+.toggleNav {
+  padding: 7vw;
+  width: 10vw;
+}
+
+.toggleNav:hover {
+  background-color: var(--whitefuzz);
+}
+
+.navbar-sections .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3.5vw 6vw;
+  width: 4vw;
+}
+
+.navbar {
+  visibility: visible;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: fixed;
+  top: -100%;
+  background: linear-gradient(#fff 25%, var(--orange) 85%, var(--darkgray) 100%);
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  transition: top 1.5s ease-out;
+}
+
+.navbar-top {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2.5vw;
+}
+
+.social-networks {
+  list-style: none;
+  padding-inline-start: 0;
+  width: 18vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5vw;
+  margin: 2vw 0;
+}
+
+.navbar-top a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-sections {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.navbar-sections li {
+  margin: 2.5vh 0;
+}
+
+.navbar-sections a {
+  font-size: 4vh;
+  text-decoration: none;
+  font-family: 'Cocogoose Bold Italic', sans-serif;
+  color: black;
+}
+
+#at-campaign {
+  background-color: var(--darkgray);
+  color: var(--orange);
+  border: solid var(--orange) 3px;
+  border-radius: 20px;
+  margin: 5px;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 5vw;
+  padding: 3vw;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--whitefuzz);
+  background-blend-mode: screen;
+  padding-bottom: 8vw;
+}
+
+#title {
+  padding: 2vw 10vw;
+}
+
+#title h1 {
+  width: 80vw;
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7vw;
+}
+
+#title h2 {
+  background-image: url(../images/farm-birdview.jpg);
+  background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vw;
+}
+
+#introduction p {
+  background-color: rgba(236, 236, 236, 0.4);
+  border: solid white 2px;
+  margin: 4vw;
+  padding: 5vw;
+  font-size: 3.5vw;
+  line-height: 7vw;
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--darkgray);
+  text-align: center;
+}
+
+#introduction .end-title {
+  display: none;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  background-color: transparent;
+  margin: 4vw;
+  color: var(--darkgray);
+  text-align: center;
+  align-self: center;
+  font-size: 4vw;
+}
+
+#logo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vw;
+  background-color: white;
+  margin-bottom: 1px;
+}
+
+#logo-info h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 6vw;
+  width: 70vw;
+  margin: 0 0 5vw 0;
+}
+
+#logo-info p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  width: 75vw;
+  margin: 0 0 5vw 0;
+}
+
+#logo-info .end-logo {
+  display: none;
+}
+
+.logo-display {
+  border: solid var(--lightgray) 1px;
+}
+
+.logo-display img {
+  width: 85vw;
+}
+
+#past-summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 8vw 0;
+}
+
+#past-summits h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  width: 80vw;
+  margin: 0 0 5vw 0;
+}
+
+#past-summits p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  line-height: 1.2rem;
+  width: 75vw;
+  margin: 0 0 5vw 0;
+}
+
+#summit-2013,
+#summit-2011 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vw 0;
+  margin: 2vw;
+  background-color: var(--orange);
+  background-blend-mode: multiply;
+  color: white;
+}
+
+#summit-2013 {
+  background-image: url(../images/farmercon.jpg);
+}
+
+#summit-2011 {
+  background-image: url(../images/expopyme.jpg);
+}
+
+#summit-2013 h3,
+#summit-2011 h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 8vw;
+  width: 80vw;
+  margin: 0 0 5vw 0;
+}
+
+#summit-2013 p,
+#summit-2011 p {
+  font-size: 4vw;
+}
+
+#partners {
+  background-color: var(--darkgray);
+  padding-top: 3vh;
+}
+
+#partners h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  color: var(--lightgray);
+  margin: 0;
+}
+
+#companies {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 8vw;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 3vw 10vw;
+}
+
+#companies li {
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#companies img {
+  width: 17vw;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+#atlogo-white {
+  display: none;
+}
+
+#atlogo-black {
+  width: 40vw;
+}
+
+.footer-left {
+  width: fit-content;
+  padding: 5vw;
+}
+
+.footer-right {
+  width: 46vw;
+  padding: 2vw;
+}
+
+.footer-right h4 {
+  font-size: 2.1vw;
+  line-height: 3vw;
+  margin: 5px 0;
+}
+
+#service-email,
+#service-phone {
+  display: none;
+}

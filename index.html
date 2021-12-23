@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Page</title>
+    <link rel="stylesheet" href="styles/index-style-max-width-767px.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="styles/index-style-min-width-768px.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d827eb1c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-top">
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" title="Facebook"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fab fa-twitter" title="Twitter"></i></a></li>
+            </ul>
+            <div class="languages"><a href="#">English</a> </div>
+            <div id="my-page"><a href="#">My Page</a></div>
+            <div class="logout"><a href="#">Logout</a></div>
+        </div>
+        <div class="navbar-bottom">
+            <a href="./index.html"> <img id="navbar-logo" src="./images/conference-logo.PNG" alt="Global Summit Logo"> </a>
+            <ul class="navbar-sections">
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+                <li><img class="close" src="./images/times.svg" alt="close menu icon"></li>
+            </ul>
+            <button id="at-campaign" type="button">CC Campaign</button>
+        </div>
+    </nav>
+
+    <section id="introduction">
+        <img class="toggleNav open" src="./images/ic_menu.svg" alt="Hamburguer icon">
+        <div id="title">
+            <h2>"Hello! Sharing World"</h2>
+            <h1>Agricultural Technology Global Summit 2022</h1>
+        </div>
+        <p>An exciting experience for both agriculture and tech
+            enthusiasts is taking place in March, in Costa Rica.</p>
+        <div class="when-where">
+            <h2 id="date">2022.03.15(TUE) ~ 16(WED)</h2>
+            <h2 id="location">@ Centro de Convenciones de Costa Rica</h2>
+        </div>
+    </section>
+
+    <section id="program">
+        <h2>Main Program</h2>
+        <ul id="program-list">
+            <li id="lecture">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Lecture</h3>
+                <p>Listen to industry professionals from around the globe
+                    speak about the newest tendencies.</p>
+            </li>
+            <li id="at-exhibition">
+                <i class="fas fa-walking"></i>
+                <h3>AT Exhibition</h3>
+                <p>Take your time as you walk through the stands of
+                    200 companies who have brought their best.</p>
+            </li>
+            <li id="forum">
+                <i class="far fa-handshake"></i>
+                <h3>Forum</h3>
+                <p>Grab a refreshing drink and share your thoughts and opinions
+                    with any of the other 10,000 attendees.</p>
+            </li>
+            <li id="workshop">
+                <i class="fas fa-toolbox"></i>
+                <h3>Workshop</h3>
+                <p>Discover and interact hands-on with various prototypes
+                    designed by professionals.</p>
+            </li>
+            <li id="at-ignite">
+                <i class="fas fa-project-diagram"></i>
+                <h3>AT Ignite</h3>
+                <p>Get opportunities to network with AT affiliates
+                    around the world, also after the summit.
+                </p>
+            </li>
+        </ul>
+        <button id="join-button" type="button">Join AT Global Summit 2022</button>
+        <a>SEE THE WHOLE PROGRAM</a>
+    </section>
+
+    <section id="speakers"></section>
+
+    <section id="partners">
+        <h3>Partner</h3>
+        <ul id="companies">
+            <li><a><img src="images/johndeere.svg" alt="John Deere Logo"></a></li>
+            <li><a><img src="images/essential.svg" alt="Essential CR Logo"></a></li>
+            <li><a><img src="images/dji.svg" alt="DJI Logo"></a></li>
+            <li><a><img src="images/bayer.svg" alt="Bayer Logo"></a></li>
+            <li><a><img src="images/cargill.svg" alt="Cargill Logo"></a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            <img id="atlogo-black" src="./images/atlogo-black.svg" alt="Agricultural Technology CR Logo Black">
+            <img id="atlogo-white" src="./images/atlogo-white.svg" alt="Agricultural Technology CR Logo White">
+        </div>
+        <div class="footer-right">
+            <h4>
+                2022 Agricultural Technology Costa Rica. Some Rights Reserved.
+            </h4>
+                <p id="service-email">Email: <a href="mailto:contact@agriculturaltechnology.com">contact@agriculturaltechnology.com</a></p>
+                <p id="service-phone">Phone: <a href="tel:(+506)26686286">+506 2668-6286</a></p>
+        </div>
+
+    </footer>
+
+    <script src="scripts/speakers.js"></script>
+    <script src="scripts/dropdown.js"></script>
+</body>
+
+</html>

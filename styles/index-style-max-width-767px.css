@@ -1,0 +1,382 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+@font-face {
+  font-family: 'Cocogoose Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light\ Italic-trial.ttf);
+}
+
+@font-face {
+  font-family: 'Cocogoose Bold Italic';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.toggleNav {
+  padding: 7vw;
+  width: 10vw;
+}
+
+.toggleNav:hover {
+  background-color: var(--whitefuzz);
+}
+
+.navbar-sections .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3.5vw 6vw;
+  width: 4vw;
+}
+
+.navbar {
+  visibility: visible;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: fixed;
+  top: -100%;
+  background: linear-gradient(#fff 25%, var(--orange) 85%, var(--darkgray) 100%);
+  margin-block-start: 0;
+  padding-inline-start: 0;
+  transition: top 1.5s ease-out;
+}
+
+.navbar-top {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2.5vw;
+}
+
+.social-networks {
+  list-style: none;
+  padding-inline-start: 0;
+  width: 18vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 5vw;
+  margin: 2vw 0;
+}
+
+.navbar-top a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-sections {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.navbar-sections li {
+  margin: 2.5vh 0;
+}
+
+.navbar-sections a {
+  font-size: 4vh;
+  text-decoration: none;
+  font-family: 'Cocogoose Bold Italic', sans-serif;
+  color: black;
+}
+
+#at-campaign {
+  background-color: var(--darkgray);
+  color: var(--orange);
+  border: solid var(--orange) 3px;
+  border-radius: 20px;
+  margin: 5px;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 5vw;
+  padding: 3vw;
+}
+
+#introduction {
+  font-family: 'Lato', sans-serif;
+  background-image: url(../images/farm-tractor.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--whitefuzz);
+  background-blend-mode: screen;
+  padding-bottom: 8vw;
+}
+
+#title {
+  padding: 2vw 10vw;
+}
+
+#title h1 {
+  width: 80vw;
+  background-image: url(../images/farm-tractor.jpg);
+  background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7vw;
+}
+
+#title h2 {
+  background-image: url(../images/farm-tractor.jpg);
+  background-position: 5%;
+  background-color: var(--orange);
+  background-blend-mode: screen;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vw;
+}
+
+#introduction p {
+  background-color: rgba(236, 236, 236, 0.4);
+  border: solid white 2px;
+  margin: 4vw;
+  padding: 5vw;
+  font-size: 3vw;
+  line-height: 4.5vw;
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--darkgray);
+}
+
+.when-where {
+  background-color: transparent;
+  margin: 4vw;
+  color: var(--darkgray);
+}
+
+#date {
+  font-weight: bolder;
+  font-size: 6.5vw;
+  margin-bottom: 0;
+}
+
+#location {
+  font-size: 4vw;
+}
+
+#program {
+  background-image: url(../images/darkholes.jpg);
+  background-size: 300vw;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: var(--orange);
+  background-blend-mode: hard-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+#program h2 {
+  margin: 4vh 0;
+  font-size: 5vw;
+}
+
+#program ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+#program li {
+  background-color: rgba(75, 74, 74, 0.7);
+  margin: 2vw 4vw;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding-left: 2vw;
+}
+
+#program li i {
+  flex: 1;
+  font-size: 7vw;
+  text-align: center;
+}
+
+#program h3 {
+  flex: 2;
+  color: var(--orange);
+  font-size: 4vw;
+}
+
+#program li p {
+  flex: 5;
+  font-size: 3vw;
+  line-height: 1.6em;
+}
+
+#program a {
+  display: none;
+  margin: 3vw;
+}
+
+#join-button {
+  display: initial;
+  background-color: var(--orange);
+  color: white;
+  padding: 7vw 12vw;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 4vw;
+  margin: 10vw 0;
+}
+
+#speakers {
+  padding: 4vw;
+}
+
+#speakers h2 {
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 4vh;
+}
+
+.speaker-card {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.speaker-left {
+  flex: 5;
+}
+
+.speaker-thumbnail {
+  background-image: url(../images/chessboard.jpg);
+  background-repeat: no-repeat;
+  background-size: 12vw;
+  background-position: top left;
+  padding: 3vw 0 0 3vw;
+}
+
+.speaker-thumbnail img {
+  width: 22.5vw;
+}
+
+.speaker-right {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 3vw;
+  font-family: 'Lato', sans-serif;
+}
+
+.speaker-name {
+  margin-top: 0;
+  font-size: 3vw;
+}
+
+.speaker-job {
+  margin-top: 0;
+  color: var(--orange);
+  font-size: 2.5vw;
+}
+
+.speaker-bio {
+  margin-top: 0;
+  font-size: 2vw;
+}
+
+#partners {
+  background-color: var(--darkgray);
+  padding-top: 3vh;
+}
+
+#partners h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 5vw;
+  color: var(--lightgray);
+  margin: 0;
+}
+
+#companies {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 8vw;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 3vw 10vw;
+}
+
+#companies li {
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#companies img {
+  width: 17vw;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+#atlogo-white {
+  display: none;
+}
+
+#atlogo-black {
+  width: 40vw;
+}
+
+.footer-left {
+  width: fit-content;
+  padding: 5vw;
+}
+
+.footer-right {
+  width: 46vw;
+  padding: 2vw;
+}
+
+.footer-right h4 {
+  font-size: 2.3vw;
+  line-height: 3vw;
+  margin: 5px 0;
+}
+
+#service-email,
+#service-phone {
+  display: none;
+}

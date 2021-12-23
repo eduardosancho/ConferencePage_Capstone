@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../fonts//cocogoose-font/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+:root {
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --darkgray: #4c505a;
+  --whitefuzz: #c1c1c1;
+}
+
+.toggleNav {
+  display: none;
+}
+
+.navbar {
+  position: initial;
+  height: auto;
+  background: white;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 7vw;
+  height: 3vw;
+  color: white;
+  background-color: rgba(80, 80, 80, 0.9);
+  font-size: 1vw;
+  width: initial;
+}
+
+.social-networks {
+  display: flex;
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 1.5vw;
+  width: 7vw;
+}
+
+.social-networks a {
+  color: white;
+}
+
+.social-networks i {
+  width: 2vw;
+}
+
+.navbar-top a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline-end: 0;
+}
+
+#navbar-logo {
+  background-color: green;
+  margin: 0 5vw;
+  width: 20vw;
+}
+
+.navbar-sections {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2vw;
+  align-items: center;
+  width: 55vw;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.navbar-sections li {
+  margin: 0;
+}
+
+.navbar-sections a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+#at-campaign {
+  background-color: white;
+  color: var(--orange);
+  border: solid var(--orange) 3px;
+  border-radius: 0;
+  margin: 5px;
+  margin-right: 7vw;
+  white-space: nowrap;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 1.2vw;
+  padding: 0.7vw 1.5vw;
+}
+
+.navbar-sections .close {
+  display: none;
+}
+
+#title {
+  padding: 2vw 5vw;
+}
+
+#title h1 {
+  background-image: none;
+  background-color: var(--orange);
+  margin: 0;
+  width: 50vw;
+  font-size: 4vw;
+}
+
+#title h2 {
+  background-color: var(--orange);
+  background-image: none;
+  display: none;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2vw;
+}
+
+#introduction .intro-message {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+  border: solid var(--darkgray) 1px;
+}
+
+#introduction p {
+  background-color: initial;
+  width: 50vw;
+  font-size: 1.1vw;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#introduction .end-title {
+  display: initial;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  font-size: 2vw;
+}
+
+#logo-info h2 {
+  font-size: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+#logo-info .logo-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw;
+  margin-bottom: 2vw;
+}
+
+#logo-info p {
+  width: 50vw;
+  line-height: normal;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+#logo-info .end-logo {
+  display: initial;
+}
+
+.logo-display img {
+  width: 50vw;
+}
+
+#past-summits .summit-preview {
+  display: flex;
+}
+
+#past-summits h2 {
+  font-size: 3vw;
+}
+
+#past-summits p {
+  font-size: 1.5vw;
+}
+
+#summit-2013,
+#summit-2011 {
+  width: 30vw;
+  height: 2vw;
+}
+
+#summit-2013 h3,
+#summit-2011 h3 {
+  font-size: 3.2vw;
+  margin-bottom: 2vw;
+}
+
+#summit-2013 p,
+#summit-2011 p {
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+
+#partners {
+  display: none;
+}
+
+footer {
+  background-color: var(--darkgray);
+  color: white;
+}
+
+.footer-right h4 {
+  font-size: 1.5vw;
+}
+
+#atlogo-black {
+  display: none;
+}
+
+#atlogo-white {
+  display: initial;
+  width: 40vw;
+}
+
+#service-email,
+#service-phone {
+  display: flex;
+  font-size: 1.4vw;
+  gap: 1vw;
+}
+
+.footer-right a {
+  color: white;
+}
