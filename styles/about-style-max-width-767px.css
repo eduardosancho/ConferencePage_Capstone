@@ -193,7 +193,11 @@ body {
 }
 
 .logo-display {
-  border: solid black 1px;
+  border: solid #b0b0b0 1px;
+}
+
+.logo-display img {
+  width: 85vw;
 }
 
 #past-summits {
