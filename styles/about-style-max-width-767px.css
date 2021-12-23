@@ -110,6 +110,8 @@ body {
 }
 
 #introduction {
+  display: flex;
+  flex-direction: column;
   font-family: 'Lato', sans-serif;
   background-image: url(../images/farm-birdview.jpg);
   background-position: center;
@@ -146,10 +148,11 @@ body {
   border: solid white 2px;
   margin: 4vw;
   padding: 5vw;
-  font-size: 4vw;
-  line-height: 8vw;
+  font-size: 3.5vw;
+  line-height: 7vw;
   font-family: 'Cocogoose', sans-serif;
   color: rgb(63, 63, 63);
+  text-align: center;
 }
 
 #introduction .end-title {
@@ -157,10 +160,15 @@ body {
 }
 
 .contact-message {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
   background-color: transparent;
   margin: 4vw;
   color: rgb(83, 83, 83);
   text-align: center;
+  align-self: center;
+  font-size: 4vw;
 }
 
 #logo-info {
