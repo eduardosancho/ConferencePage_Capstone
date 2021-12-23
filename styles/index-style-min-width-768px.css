@@ -163,7 +163,7 @@
 #speakers {
   display: grid;
   grid-template-columns: 4fr 4fr;
-  grid-template-rows:  10vw 16vw 16vw 16vw 6vw;
+  grid-template-rows: 10vw 16vw 16vw 16vw;
   padding: 4vw 10vw;
 }
 
@@ -226,4 +226,22 @@
 
 .speaker-bio {
   font-size: 1vw;
+}
+
+#partners h3 {
+  font-size: 2.5vw;
+}
+
+#companies {
+  padding: initial;
+  gap: 4vw;
+}
+
+#companies li {
+  height: 15vw;
+  width: 8vw;
+}
+
+#companies img {
+  width: 10vw;
 }

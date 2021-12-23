@@ -323,6 +323,7 @@ body {
   height: 20vw;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #companies img {
