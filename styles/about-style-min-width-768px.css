@@ -172,7 +172,7 @@
   display: initial;
 }
 
-.logo-display img{
+.logo-display img {
   width: 50vw;
 }
 
@@ -207,9 +207,8 @@
 }
 
 #partners {
-display: none;
+  display: none;
 }
-
 
 footer {
   background-color: rgb(83, 83, 83);
