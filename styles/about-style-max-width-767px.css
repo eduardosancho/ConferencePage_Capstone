@@ -255,7 +255,7 @@ body {
   padding: 10vw 0;
   margin: 2vw;
   background-color: var(--orange);
-  background-blend-mode:multiply;
+  background-blend-mode: multiply;
   color: white;
 }
 
