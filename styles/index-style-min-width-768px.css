@@ -45,6 +45,11 @@
   width: 2vw;
 }
 
+.navbar-top a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar-bottom {
   display: flex;
   flex-direction: row;

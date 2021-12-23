@@ -72,7 +72,8 @@ body {
   margin: 2vw 0;
 }
 
-.social-networks a {
+.navbar-top a {
+  text-decoration: none;
   color: black;
 }
 
