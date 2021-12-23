@@ -19,22 +19,21 @@
   align-items: center;
   gap: 20px;
   padding-right: 7vw;
-  height: 6vh;
+  height: 3vw;
   color: white;
   background-color: rgba(80, 80, 80, 0.9);
-  font-size: 1.4vw;
+  font-size: 1vw;
   width: initial;
 }
 
 .social-networks {
   display: flex;
   list-style: none;
-  gap: 20px;
   padding-inline-start: 0;
   margin-block-end: 0;
   margin-block-start: 0;
-  font-size: 2vw;
-  width: 10vw;
+  font-size: 1.5vw;
+  width: 7vw;
 }
 
 .social-networks a {
@@ -53,22 +52,22 @@
 .navbar-bottom {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-inline-end: 0;
 }
 
 #navbar-logo {
   background-color: green;
-  margin: 0 0 0 5vw;
-  height: auto;
+  margin: 0 5vw;
   width: 20vw;
 }
 
 .navbar-sections {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 2vw;
   align-items: center;
-  width: 40vw;
+  width: 55vw;
   padding-inline-start: 0;
   list-style: none;
 }
@@ -89,7 +88,7 @@
   border: solid #43a127 3px;
   border-radius: 0;
   margin: 5px;
-  margin-right: 5vw;
+  margin-right: 7vw;
   white-space: nowrap;
   font-family: 'Cocogoose', sans-serif;
   font-size: 1.2vw;
