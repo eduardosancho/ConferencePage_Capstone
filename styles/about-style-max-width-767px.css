@@ -17,7 +17,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: 'Cocogoose', sans-serif;
-  background-color: #b0b0b0;
 }
 
 .toggleNav {
@@ -33,7 +32,8 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 6vw;
+  padding: 3.5vw 6vw;
+  width: 4vw;
 }
 
 .navbar {
@@ -58,7 +58,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .social-networks {
@@ -68,6 +68,7 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 5vw;
+  margin: 2vw 0;
 }
 
 .social-networks a {
@@ -86,7 +87,7 @@ body {
 }
 
 .navbar-sections li {
-  margin: 3.5vh 0;
+  margin: 2.5vh 0;
 }
 
 .navbar-sections a {
@@ -104,7 +105,7 @@ body {
   margin: 5px;
   white-space: nowrap;
   font-family: 'Cocogoose', sans-serif;
-  font-size: 8vw;
+  font-size: 5vw;
   padding: 3vw;
 }
 
