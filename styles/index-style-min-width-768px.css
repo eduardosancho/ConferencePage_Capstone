@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-inline-end: 0vw;
+  padding-inline-end: 0;
 }
 
 #navbar-logo {
@@ -135,7 +135,7 @@
   height: 25vh;
 }
 
-#program li i{
+#program li i {
   font-size: 3vw;
   flex: none;
 }

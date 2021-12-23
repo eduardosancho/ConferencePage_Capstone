@@ -129,11 +129,10 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7vw;
-
 }
 
 #title h2 {
-  background-image: url(../images/farm-tractor.jpg);  
+  background-image: url(../images/farm-tractor.jpg);
   background-position: 5%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
